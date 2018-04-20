@@ -27,10 +27,8 @@ header{
     height: 50px;
     padding: 23px;  
     font-family: 'Georgia', Times, Times New Roman, serif;
-
-    
-
-    
+  
+ 
 
 }
 
@@ -52,6 +50,7 @@ nav{
       padding: 10px;
       margin-left: 450px;
       Margin-right: 200px;
+      
   }
     
 
@@ -110,60 +109,58 @@ p1{
  }
 
 
- #name{
-    width: 900px;
-    height: 15px;
-    border-style: solid;
-    border-color: #777777;
-    border-width: .5px;
-    margin-top: -60px;
-    margin-left: 10px;
-
-    
-
-    
- 
-
-    
-
- }
- #email{
-    width: 900px;
-    height: 15px;
-    border-style: solid;
-    border-color: #777777;
-    border-width: .5px;
-    margin-top: -50px;
-    margin-left: 10px;
-    
-
-    
    
-   
- } 
- #message{
-    width: 900px;
-    height: 150px;
-    border-style: solid;
-    border-color: #777777;
-    border-width: .5px;
-    Margin-top: -10px;
-    margin-left: 10px;
-   
-   
-    
- 
- }
- .button{
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
     background-color: #4aaaa5;
-    color: #ffffff;
-    position: fixed;
-    Bottom: 220px;
-    left: 500px;
-    height: 20px;
-    padding: 10px;
-   
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
 
+}
 
+#fname{
+    width: 900px;
+    height: 50px;
+    margin: 20px;
+}
+#message{
+    width: 900px;
+    height: 200px;
+    margin: 20px;
 
- }
+}
+
+#bio-image1{
+    float: left;
+}
+#bio-image2{
+    float:right;
+
+}
+  
+#bio-image3{
+
+}
+  
+#bio-image4{
+
+}
+  
+
+#bio-image5{
+
+}
