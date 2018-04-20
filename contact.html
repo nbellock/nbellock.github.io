@@ -30,33 +30,23 @@
     </header>
 
     <div class="container">
-
- 
-       
-        <H2>Contact</H2>
-
-        <p1>Name</p>
-          
-         <section id="name">
-           <p1>John Smith</p>
-         </section>
-
-        <p1>Email
-        </p>
-        <section id="email">
-            <p1>johnsmith@email.com</p>
-        </section>
-
-        <p1>Message</p>
-       <section id="message">  
-                  
-    </section>
-    
-    <div class="button">
-        <p1>Submit</p1>
-
-    </div>
-</div>      
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+         
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
 <footer>
     Copyright@
